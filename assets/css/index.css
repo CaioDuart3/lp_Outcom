@@ -992,6 +992,10 @@ transition: transform 0.3s ease;
     }
 }
 @media(max-width: 560px){
+    :root{
+        --padding: 24px 32px;
+        --padding-s7: 0px 32px;
+    }
     .container-para-quem-secao3{
         flex-direction: column;
 
@@ -1019,14 +1023,10 @@ transition: transform 0.3s ease;
     .img-asteroide3, .img-astro, .img-jupiter{
         left: 0px;
     }
-
+    .img-asteroide1{
+        left: -10px
+    }
     .img-lua{
         right: 0;
     }
     }
-@media(max-width: 400px){
-    :root{
-        --padding: 24px 32px;
-        --padding-s7: 0px 32px;
-    }
-}
