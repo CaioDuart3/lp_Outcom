@@ -394,6 +394,7 @@ align-content: center;
 align-self: stretch;
 flex-direction: column;
 border-radius: 20px;
+flex-wrap: wrap;
 background: linear-gradient(90deg, #FBC327 0%, #FE840A 17%, #FD9914 78%, #FF6F00 100%);
 }
 .container-para-quem-secao3{
@@ -891,7 +892,7 @@ transition: transform 0.3s ease;
 @media (max-width: 860px) {
     :root{
     --padding: 24px 64px;
-    --padding-s7: 0px 64px;
+    --padding-s7: 24px 64px;
     }
     .bg-quemSomos-secao7 {
         display: flex;
